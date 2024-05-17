@@ -16,13 +16,13 @@ export default function Sidebar() {
       </IconButton>
       <Drawer anchor="left" open={isOpen} onClose={toggleDrawer}>
         <List>
-          <ListItem button onClick={toggleDrawer}>
+          <ListItem onClick={toggleDrawer}>
             <ListItemText primary="Home" />
           </ListItem>
-          <ListItem button onClick={toggleDrawer}>
+          <ListItem onClick={toggleDrawer}>
             <ListItemText primary="Transactions" />
           </ListItem>
-          <ListItem button onClick={toggleDrawer}>
+          <ListItem onClick={toggleDrawer}>
             <ListItemText primary="Reports" />
           </ListItem>
         </List>

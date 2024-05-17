@@ -19,7 +19,7 @@ export default function TransactionsLogs() {
                 rows={mockTransactions}
                 columns={columns}
                 pageSize={5}
-                getRowId={(row) => row.txId} // Specify txId as the unique identifier
+                getRowId={(row) => row.txId}
             />
         </div>
     );
